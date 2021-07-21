@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ICE CUBE TRAY </title>
+
+    <!-- link for star rating w3school -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- link for start rating  -->
+    <link rel="stylesheet" href="star.css">
+
+    <!-- link for nevigation bar  -->
+    <link rel="stylesheet" type="text/css" href="navigation.css">
+
+    <!-- link for price  -->
+    <link rel="stylesheet" href="price.css">
+
+    <!-- link for footer  -->
+    <link rel="stylesheet" href="footer.css">
+
+    <!-- link for searchbar  -->
+    <link rel="stylesheet" href="searchbox.css">
+
+    <!-- link for image hover  -->
+    <link rel="stylesheet" href="imagehover.css">
+
+</head>
+
+
+<body class="b">
+
+    <!--starting code for top  -->
+    <table id="tab">
+        <tr>
+            <td>
+                <img src="1.jpg" height="50px" width="100px">
+            </td>
+
+            <td>
+                <!-- <input style="width: 550px; height: 30px;" type="text" placeholder="SEARCH YOUR PRODUCTS">
+     
+        <input style="width: 80px; height: 35px;" type="button" value="SEARCH" placeholder="SEARCH"> -->
+                <form autocomplete="off" action="/action_page.php">
+                    <div class="autocomplete" style="width:400px;">
+                        <input id="myInput" type="text" name="myCountry" placeholder="Search Your Products">
+                    </div>
+                    <input type="submit" style="width: 70px; text-align: center;">
+                </form>
+            </td>
+
+            <th>
+                <b style="color:white">LogIn & SignUp </b>
+            </th>
+
+            <th>
+                <b style="color:white"> MORE </b>
+            </th>
+
+            <td>
+                <a href="cart.html"> <img src="cart.jpg" height="50px" width="100px" text-aling="center"
+                        float="right"></a>
+            </td>
+        </tr>
+    </table> <br>
+    <!-- ending code of top  -->
+
+    <!-- starting code of menu  -->
+    <table>
+        <ul>
+            <li> <a> CUPS </a>
+                <ul>
+                    <li> <a> Stainless Steel </a></li>
+                    <li> <a> glass </a></li>
+                    <li> <a> coffee cup </a></li>
+                    <li> <a> Paper Cup </a></li>
+                    <li> <a> Plastic Cup </a></li>
+                    <li> <a> Plastic Cup </a></li>
+                </ul>
+            </li>
+
+            <li> <a> GLASS </a>
+                <ul>
+                    <li> <a> Steel </a></li>
+                    <li> <a> Plastic </a></li>
+                    <li> <a> Juice glass </a></li>
+                    <li> <a> Plastic Glass </a></li>
+                </ul>
+            </li>
+
+            <li> <a> SPOONS </a>
+                <ul>
+                    <li> <a> steel </a></li>
+                    <li> <a> glass </a></li>
+                    <li> <a> coffee cup </a></li>
+                </ul>
+            </li>
+
+            <li> <a> BOWLS </a>
+                <ul>
+                    <li> <a> steel </a></li>
+                    <li> <a> glass </a></li>
+                    <li> <a> coffee cup </a></li>
+                </ul>
+            </li>
+
+            <li> <a> UTENSILS </a>
+                <ul>
+                    <li> <a> steel </a></li>
+                    <li> <a> glass </a></li>
+                    <li> <a> coffee cup </a></li>
+                </ul>
+
+            </li>
+            <li> <a> ELCTRONIC </a>
+                <ul>
+                    <li> <a> steel </a></li>
+                    <li> <a> glass </a></li>
+                    <li> <a> coffee cup </a></li>
+                </ul>
+            </li>
+
+            <li> <a> PLATES</a>
+                <ul>
+                    <li> <a> steel </a></li>
+                    <li> <a> glass </a></li>
+                    <li> <a> coffee cup </a></li>
+                </ul>
+            </li>
+
+            <li> <a> OFFERS </a>
+                <ul>
+                    <li> <a> steel </a></li>
+                    <li> <a> glass </a></li>
+                    <li> <a> coffee cup </a></li>
+                </ul>
+            </li>
+        </ul>
+        <!-- ending code of menu  -->
+
+    </table>
+    <br> <br> <br>
+
+
+    <!-- starting of slider code  -->
+    <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides" src="slider1.jpg" style="width:1350px; height: 300px;">
+        <img class="mySlides" src="slider2.jpg" style="width:1350px; height: 300px;">
+        <img class="mySlides" src="slider3.jpg" style="width:1350px; height: 300px;">
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <br>
+    <!-- Ending code of slider  -->
+
+    <table>
+        <tr>
+            <td colspan="5">
+                <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> ICE CUBE TRAY <br> <br> <br>
+                </small>
+
+                <!--  <input type="button" value="View All"
+              style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">-->
+            </td>
+        </tr>
+
+        <tr>
+            <th class="h"> <a href="ice1.html"> <img src="ic1.jfif" width="200px" height="200px"> </th>
+            <th class="h"> <a href="ice2.html"> <img src="ic2.jpg" width="200px" height="200px"> </th>
+            <th class="h"> <a href="ice3.html"> <img src="ic3.jpeg" width="200px" height="200px"> </th>
+            <th class="h"> <a href="ice4.html"> <img src="ic4.jpg" width="200px" height="200px"> </th>
+        </tr>
+
+        <th> <br>
+            <p class="top">Red Silicone Ice Cube Tray</p> <b class="size"> ₹2499 </b> <s class="gray">₹599</s> <b
+                class="green"> 58%
+                off</b>
+        </th>
+
+        <th> <br>
+            <p class="top">Multicolor Silicone Ice Cube Tray </p> <b class="size"> ₹270 </b> <s class="gray">₹499</s> <b
+                class="green">
+                45%
+                off</b>
+        </th>
+
+        <th> <br>
+            <p class="top">Plastic Ice Cube Tray </p> <b class="size"> ₹599 </b> <s class="gray">₹699</s> <b
+                class="green">
+                14%
+                off </b>
+        </th>
+
+        <th> <br>
+            <p class="top"> cello Polka Water Bottle </p> <b class="size"> ₹2351 </b> <s class="gray">₹275 </s> <b
+                class="green"> 14% off </b>
+        </th>
+        </tr>
+
+        <div>
+            <th>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star s" width="200px"> </span> &nbsp;
+            </th>
+
+            <th>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star s" width="200px"> </span>&nbsp;
+            </th>
+
+            <th>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star s" width="200px"> </span> &nbsp;
+            </th>
+
+            <th>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star s" width="200px"> </span> &nbsp;
+            </th>
+        </div>
+
+        <tr>
+            <th>
+                <div class="gray1">
+                    <p style="text-align: center;">FREE Delivery by KIT-MART</p>
+                </div>
+            </th>
+
+            <th>
+                <div class="gray1">
+                    <p>FREE Delivery by KIT-MART</p>
+                </div>
+            </th>
+
+            <th>
+                <div class="gray1">
+                    <p>FREE Delivery by KIT-MART</p>
+                </div>
+            </th>
+
+            <th>
+                <div class="gray1">
+                    <p>FREE Delivery by KIT-MART</p>
+                </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th> <a href="ice1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+            <th> <a href="ice2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+            <th> <a href="ice3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+            <th> <a href="ice4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+        </tr> <br>
+    </table> <br><br><br>
+
+
+    <table style="width:100%;">
+
+        <tr>
+            <th class="h"> <a href="ice5.html"> <img src="ic5.jpg" width="200px" height="200px"> </th>
+            <th class="h"> <a href="ice6.html"> <img src="ic6.jpg" width="200px" height="200px"> </th>
+            <th class="h"> <a href="ice7.html"> <img src="ic7.jpg" width="200px" height="200px"> </th>
+            <th class="h"> <a href="ice8.html"> <img src="ic8.jfif" width="200px" height="200px"> </th>
+        </tr>
+
+        <tr>
+            <th> <br>
+                <p class="top"> Red and Green Plastic Fridge Water Bottle </p> <b class="size"> ₹365 </b> <s
+                    class="gray">₹599</s>
+                <b class="green"> 39%
+                    off</b>
+            </th>
+            <th> <br>
+                <p class="top">SIDHIVINAYAK ENTERPRISES </p> <b class="size"> ₹1,499 </b> <s class="gray">₹1,924</s>
+                <b class="green"> 22%
+                    off</b>
+            </th>
+            <th> <br>
+                <p class="top"> Bluewhale New 14 in 1 heart shape</p> <b class="size"> ₹79 </b> <s class="gray">₹499</s>
+                <b class="green"> 84%
+                    off</b>
+            </th>
+            <th> <br>
+                <p class="top">Sharry POP UP ICE CUBE TRAY </p> <b class="size"> ₹99 </b> <s
+                    class="gray">₹199</s>
+                <b class="green"> 50%
+                    off</b>
+            </th>
+        </tr>
+
+        <div>
+            <th>
+                <span class="fa fa-star checked" width="500px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star s" width="200px">
+            </th>
+
+            <th>
+                <span class="fa fa-star checked" width="500px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star s" width="200px">
+            </th>
+
+            <th>
+                <span class="fa fa-star checked" width="500px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star s" width="200px">
+            </th>
+
+            <th>
+                <span class="fa fa-star checked" width="500px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star checked" width="200px"> </span>
+                <span class="fa fa-star s" width="200px">
+            </th>
+
+        </div>
+
+        <tr>
+            <th>
+                <div class="gray1">
+                    <p>FREE Delivery by KIT-MART</p>
+                </div>
+            </th>
+
+            <th>
+                <div class="gray1">
+                    <p>FREE Delivery by KIT-MART</p>
+                </div>
+            </th>
+
+            <th>
+                <div class="gray1">
+                    <p>FREE Delivery by KIT-MART</p>
+                </div>
+            </th>
+
+            <th>
+                <div class="gray1">
+                    <p>FREE Delivery by KIT-MART</p>
+                </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th> <a href="ice5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+            <th> <a href="ice6.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+            <th> <a href="ice7.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+            <th> <a href="ice8.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+        </tr>
+
+    </table>
+    <br><br><br>
+
+
+    <div class="footer">
+
+        <div class="footerb">
+            <b> Quick Links</b> <br> <br>
+            Home <br>
+            About <br>
+            Contect <br>
+            Items <br>
+        </div>
+
+        <div class="footerb">
+            <b>Menu</b> <br> <br>
+            Electronics <br>
+            Pots <br>
+            Utensils<br>
+        </div>
+
+        <div class="footerb">
+            <b>Address</b> <br> <br>
+            A/405, <br>
+            Bano Building, <br>
+            Jeevan Baug, <br>
+            Mumbra, Thane(400 612) <br> <br>
+            <b>Timing :</b> 9:00AM to 6:00PM
+        </div>
+
+        <div class="footerb">
+            <b>Follow Us</b> <br> <br>
+            Facebook <br>
+            Twitter <br>
+            Instagram <br>
+            YouTube
+        </div>
+
+        <div class="footerb">
+            <b> Map </b> <br>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.117192668335!2d73.02062431412558!3d19.19008305336516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf1e081e3a27%3A0xdd58a45c771a28b!2sMumbra%20Railway%20Station!5e0!3m2!1sen!2sin!4v1614790524800!5m2!1sen!2sin"
+                width="200" height="160" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="footerb">
+            <b>Quick Search</b> <br><br>
+            <input type="text" placeholder="Search"> <br> <br>
+            <input type="button" value="Search">
+        </div>
+
+    </div>
+    <!-- ending code of footer  -->
+
+
+    <script>
+        function autocomplete(inp, arr) {
+            /*the autocomplete function takes two arguments,
+            the text field element and an array of possible autocompleted values:*/
+            var currentFocus;
+            /*execute a function when someone writes in the text field:*/
+            inp.addEventListener("input", function (e) {
+                var a, b, i, val = this.value;
+                /*close any already open lists of autocompleted values*/
+                closeAllLists();
+                if (!val) { return false; }
+                currentFocus = -1;
+                /*create a DIV element that will contain the items (values):*/
+                a = document.createElement("DIV");
+                a.setAttribute("id", this.id + "autocomplete-list");
+                a.setAttribute("class", "autocomplete-items");
+                /*append the DIV element as a child of the autocomplete container:*/
+                this.parentNode.appendChild(a);
+                /*for each item in the array...*/
+                for (i = 0; i < arr.length; i++) {
+                    /*check if the item starts with the same letters as the text field value:*/
+                    if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                        /*create a DIV element for each matching element:*/
+                        b = document.createElement("DIV");
+                        /*make the matching letters bold:*/
+                        b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                        b.innerHTML += arr[i].substr(val.length);
+                        /*insert a input field that will hold the current array item's value:*/
+                        b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                        /*execute a function when someone clicks on the item value (DIV element):*/
+                        b.addEventListener("click", function (e) {
+                            /*insert the value for the autocomplete text field:*/
+                            inp.value = this.getElementsByTagName("input")[0].value;
+                            /*close the list of autocompleted values,
+                            (or any other open lists of autocompleted values:*/
+                            closeAllLists();
+                        });
+                        a.appendChild(b);
+                    }
+                }
+            });
+            /*execute a function presses a key on the keyboard:*/
+            inp.addEventListener("keydown", function (e) {
+                var x = document.getElementById(this.id + "autocomplete-list");
+                if (x) x = x.getElementsByTagName("div");
+                if (e.keyCode == 40) {
+                    /*If the arrow DOWN key is pressed,
+                    increase the currentFocus variable:*/
+                    currentFocus++;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                } else if (e.keyCode == 38) { //up
+                    /*If the arrow UP key is pressed,
+                    decrease the currentFocus variable:*/
+                    currentFocus--;
+                    /*and and make the current item more visible:*/
+                    addActive(x);
+                } else if (e.keyCode == 13) {
+                    /*If the ENTER key is pressed, prevent the form from being submitted,*/
+                    e.preventDefault();
+                    if (currentFocus > -1) {
+                        /*and simulate a click on the "active" item:*/
+                        if (x) x[currentFocus].click();
+                    }
+                }
+            });
+            function addActive(x) {
+                /*a function to classify an item as "active":*/
+                if (!x) return false;
+                /*start by removing the "active" class on all items:*/
+                removeActive(x);
+                if (currentFocus >= x.length) currentFocus = 0;
+                if (currentFocus < 0) currentFocus = (x.length - 1);
+                /*add class "autocomplete-active":*/
+                x[currentFocus].classList.add("autocomplete-active");
+            }
+            function removeActive(x) {
+                /*a function to remove the "active" class from all autocomplete items:*/
+                for (var i = 0; i < x.length; i++) {
+                    x[i].classList.remove("autocomplete-active");
+                }
+            }
+            function closeAllLists(elmnt) {
+                /*close all autocomplete lists in the document,
+                except the one passed as an argument:*/
+                var x = document.getElementsByClassName("autocomplete-items");
+                for (var i = 0; i < x.length; i++) {
+                    if (elmnt != x[i] && elmnt != inp) {
+                        x[i].parentNode.removeChild(x[i]);
+                    }
+                }
+            }
+            /*execute a function when someone clicks in the document:*/
+            document.addEventListener("click", function (e) {
+                closeAllLists(e.target);
+            });
+        }
+
+        /*An array containing all the country names in the world:*/
+        var countries = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Anguilla", "Antigua & Barbuda", "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia & Herzegovina", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central Arfrican Republic", "Chad", "Chile", "China", "Colombia", "Congo", "Cook Islands", "Costa Rica", "Cote D Ivoire", "Croatia", "Cuba", "Curacao", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Falkland Islands", "Faroe Islands", "Fiji", "Finland", "France", "French Polynesia", "French West Indies", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Gibraltar", "Greece", "Greenland", "Grenada", "Guam", "Guatemala", "Guernsey", "Guinea", "Guinea Bissau", "Guyana", "Haiti", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Isle of Man", "Israel", "Italy", "Jamaica", "Japan", "Jersey", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Macedonia", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauro", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea", "Norway", "Oman", "Pakistan", "Palau", "Palestine", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romania", "Russia", "Rwanda", "Saint Pierre & Miquelon", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "St Kitts & Nevis", "St Lucia", "St Vincent", "Sudan", "Suriname", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Timor L'Este", "Togo", "Tonga", "Trinidad & Tobago", "Tunisia", "Turkey", "Turkmenistan", "Turks & Caicos", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam", "Virgin Islands (US)", "Yemen", "Zambia", "Zimbabwe",
+
+            "Kettle",
+            "Toaster",
+            "Microwave oven",
+            "Refrigerator (commonly “fridge”)",
+            "Dishwasher",
+            "Breadbox",
+            "Pitcher (or jug)",
+            "Blender",
+            "Colander",
+            "Tureen (or bowl)",
+            "Cookware ",
+            "Frying pan (stainless steel or nonstick)",
+            "Teapot ",
+            "Grater",
+            "Spatula",
+            "Measuring cups",
+            "Measuring spoons",
+            "Cutting board",
+            "Ladle",
+            "Strainer",
+            "Slotted spoon",
+            "Can opener",
+            "Mixing bowl",
+            "Egg slicer",
+            "Potato peeler",
+            "Meat mallet",
+            "Plate",
+            "Glass ",
+            "Cup (mug)",
+            "Regular spoon",
+            "Fork ",
+            "Knife (butter knife, paring knife, steak knife)",
+            "Bin ",
+        ];
+
+        /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+        autocomplete(document.getElementById("myInput"), countries);
+    </script>
+
+
+</body>
+
+</html>
