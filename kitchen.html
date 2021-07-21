@@ -1,0 +1,3210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIT-MART</title>
+
+
+  <!-- link for star rating w3school -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- link for start rating  -->
+  <link rel="stylesheet" href="star.css">
+
+  <!-- link for nevigation bar  -->
+  <link rel="stylesheet" type="text/css" href="navigation.css">
+
+  <!-- link for price  -->
+  <link rel="stylesheet" href="price.css">
+
+  <!-- link for count down timer  -->
+  <link rel="stylesheet" href="timer.css">
+
+  <!-- link foe slider  -->
+  <link rel="stylesheet" href="newslider.css">
+
+  <!-- link for footer  -->
+  <link rel="stylesheet" href="footer.css">
+
+  <!-- link for searchbar  -->
+  <link rel="stylesheet" href="searchbox.css">
+
+  <!-- link for image hover  -->
+  <link rel="stylesheet" href="imagehover.css">
+
+</head>
+
+<style>
+  /* .star-rating li {
+    padding: 0;
+  }
+
+  .star-rating i {
+    font-size: 20px;
+    color: #ffc000;
+  } */
+</style>
+
+<body class="b">
+
+  <!--starting code for top  -->
+  <table id="tab">
+    <tr>
+      <td>
+        <img src="1.jpg" height="50px" width="100px">
+      </td>
+
+      <td>
+        <!-- <input style="width: 550px; height: 30px;" type="text" placeholder="SEARCH YOUR PRODUCTS">
+     
+        <input style="width: 80px; height: 35px;" type="button" value="SEARCH" placeholder="SEARCH"> -->
+        <form autocomplete="off" action="/action_page.php">
+          <div class="autocomplete" style="width:400px;">
+            <input id="myInput" type="text" name="myCountry" placeholder="Search Your Products">
+          </div>
+          <input type="submit" style="width: 80px; text-align: center;">
+        </form>
+      </td>
+
+      <th>
+        <button style="width: 120px; height: 40px; color: #fff;"> <b style="color: rgb(64, 64, 241); font-size: 17px;">
+            Login</b> </button>
+
+      </th>
+
+      <th>
+        <b style="color:white"> More </b>
+      </th>
+
+      <td>
+        <a href="cart.html"> <img src="cart.jpg" height="50px" width="100px" text-aling="center" float="right"></a>
+      </td>
+    </tr>
+  </table> <br>
+  <!-- ending code of top  -->
+
+  <!-- <table>
+    <td style="width: 12%;">
+    </td>
+  </table> -->
+
+  <!-- starting code of menu  -->
+  <table>
+    <ul>
+      <li> <a> CUPS </a>
+        <ul>
+          <li> <a> coffee cup </a></li>
+          <li> <a> Paper Cup </a></li>
+          <li> <a> Plastic Cup </a></li>
+        </ul>
+      </li>
+
+      <li> <a> GLASS </a>
+        <ul>
+          <li> <a> Steel </a></li>
+          <li> <a> Plastic </a></li>
+          <li> <a> Juice glass </a></li>
+          <li> <a> Plastic Glass </a></li>
+        </ul>
+      </li>
+
+      <li> <a> SPOONS </a>
+        <ul>
+          <li> <a> steel </a></li>
+          <li> <a> glass </a></li>
+          <li> <a> coffee cup </a></li>
+        </ul>
+      </li>
+
+      <li> <a> BOWLS </a>
+        <ul>
+          <li> <a> steel </a></li>
+          <li> <a> glass </a></li>
+          <li> <a> coffee cup </a></li>
+        </ul>
+      </li>
+
+      <li> <a> UTENSILS </a>
+        <ul>
+          <li> <a> steel </a></li>
+          <li> <a> glass </a></li>
+          <li> <a> coffee cup </a></li>
+        </ul>
+
+      </li>
+      <li> <a> ELCTRONIC </a>
+        <ul>
+          <li> <a> steel </a></li>
+          <li> <a> glass </a></li>
+          <li> <a> coffee cup </a></li>
+        </ul>
+      </li>
+
+      <li> <a> PLATES</a>
+        <ul>
+          <li> <a> steel </a></li>
+          <li> <a> glass </a></li>
+          <li> <a> coffee cup </a></li>
+        </ul>
+      </li>
+
+      <li> <a> OFFERS </a>
+        <ul>
+          <li> <a> steel </a></li>
+          <li> <a> glass </a></li>
+          <li> <a> coffee cup </a></li>
+        </ul>
+      </li>
+    </ul>
+
+  </table>
+  <br> <br> <br> <br>
+
+  <!-- ending code of menu  -->
+
+  <!-- starting of slider code  -->
+  <div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides" src="slider1.jpg" style="width:1350px; height: 300px;">
+    <img class="mySlides" src="slider2.jpg" style="width:1350px; height: 300px;">
+    <img class="mySlides" src="slider3.jpg" style="width:1350px; height: 300px;">
+    <img class="mySlides" src="slider4.jpg" style="width:1350px; height: 300px;">
+    <img class="mySlides" src="slider5.jpg" style="width:1350px; height: 300px;">
+  </div>
+
+  <!-- count down timer script  -->
+  <b>
+    <h1>DEALS OF THE DAY </h1>
+  </b>
+  <div id="clockdiv">
+    <div>
+      <span class="days"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+
+  <!-- starting code of products  -->
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> WATER BOTTLES <br> <br> <br>
+        </small>
+
+        <a href="botl.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;"></a>
+      </td>
+    </tr>
+
+
+    <tr>
+      <th class="h"> <a href="botl1.html"> <img src="bt1.webp" width="200px" height="200px"> </th>
+      <th class="h"> <a href="botl2.html"> <img src="bt2.webp" width="200px" height="200px"> </th>
+      <th class="h"> <a href="botl3.html"> <img src="bt3.jpg" width="200px" height="200px"> </th>
+      <th class="h"> <a href="botl4.html"> <img src="bt4.jpg" width="200px" height="200px"> </th>
+      <th class="h"> <a href="botl5.html"> <img src="bt5.jpeg" width="200px" height="200px"> </th>
+    </tr>
+
+
+    <div class="col-container">
+      <div class="col">
+        <th>
+          <p class="top">Greenchef Kiyo Thermosteel stainless steel</p> <b class="size"> ₹699 </b> <s
+            class="gray">₹1,059</s> <b class="green"> 33%
+            off</b>
+        </th>
+      </div>
+
+      <th>
+        <p class="top">Avatar 1000 ML SIDE ROPE6</p> <b class="size"> ₹270 </b> <s class="gray">₹400</s> <b
+          class="green">
+          32%
+          off</b>
+      </th>
+
+      <th>
+        <p class="top"> MILTON Copper Bottle </p> <b class="size"> ₹721 </b> <s class="gray">₹925</s> <b class="green">
+          22%
+          off </b>
+      </th>
+
+      <th>
+        <p class="top"> cello Polka Water Bottle </p> <b class="size"> ₹235 </b> <s class="gray">₹275 </s> <b
+          class="green"> 14% off </b>
+      </th>
+
+      <th>
+        <p class="top"> Red and Green Plastic Fridge Water Bottle </p> <b class="size"> ₹365 </b> <s
+          class="gray">₹599</s>
+        <b class="green"> 39%
+          off</b>
+      </th>
+      </tr>
+    </div>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="500px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px">
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span> &nbsp;
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>&nbsp;
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span> &nbsp;
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span> &nbsp;
+      </th>
+    </div>
+
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p style="text-align: center;">FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="botl1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="botl2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="botl3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="botl4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="botl5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+    <!-- </div> -->
+  </table> <br>
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> ICE CUBE TRAY <br> <br> <br>
+        </small>
+
+        <a href="ice.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;"></a>
+      </td>
+    </tr>
+
+    <div class="box">
+      <tr>
+        <th class="h"> <a href="ice1.html"> <img src="ic1.jfif" width="200px" height="200px"> </th>
+        <th class="h"> <a href="ice2.html"> <img src="ic2.jpg" width="200px" height="200px"> </th>
+        <th class="h"> <a href="ice3.html"> <img src="ic3.jpeg" width="200px" height="200px"> </th>
+        <th class="h"> <a href="ice4.html"> <img src="ic4.jpg" width="200px" height="200px"> </th>
+        <th class="h"> <a href="ice5.html"> <img src="ic5.jpg" width="200px" height="200px"> </th>
+      </tr>
+    </div>
+
+    <tr>
+      <th> <br>
+        <p class="top">Red Silicone Ice Cube Tray</p> <b class="size"> ₹2499 </b> <s class="gray">₹599</s> <b
+          class="green"> 58%
+          off</b>
+      </th>
+
+      <th> <br>
+        <p class="top">Multicolor Silicone Ice Cube Tray </p> <b class="size"> ₹270 </b> <s class="gray">₹499</s> <b
+          class="green">
+          45%
+          off</b>
+      </th>
+
+      <th> <br>
+        <p class="top">Plastic Ice Cube Tray </p> <b class="size"> ₹599 </b> <s class="gray">₹699</s> <b class="green">
+          14%
+          off </b>
+      </th>
+
+      <th> <br>
+        <p class="top"> KUBER INDUSTRIES </p> <b class="size"> ₹739 </b> <s class="gray">₹1,298 </s> <b class="green">
+          43% off </b>
+      </th>
+
+      <th> <br>
+        <p class="top"> Plastic Ice Cube Tray </p> <b class="size"> ₹599 </b> <s class="gray">₹699</s>
+        <b class="green"> 14%
+          off</b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="500px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px">
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span> &nbsp;
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>&nbsp;
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span> &nbsp;
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span> &nbsp;
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p style="text-align: center;">FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="ice1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="ice2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="ice3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="ice4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="ice5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+    <!-- </div> -->
+  </table> <br>
+
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> KNIFES<br> <br> <br>
+        </small>
+
+        <a href="knife.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;"></a>
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"> <a href="knife1.html"> <img src="k1.jfif" width="200px" height="200px"></th>
+      <th class="h"> <a href="knife2.html"> <img src="k2.jpg" width="200px" height="200px"></th>
+      <th class="h"> <a href="knife3.html"> <img src="k3.webp" width="200px" height="200px"></th>
+      <th class="h"> <a href="knife4.html"> <img src="k4.webp" width="200px" height="200px"></th>
+      <th class="h"> <a href="knife5.html"> <img src="k5.jpg" width="200px" height="200px"></th>
+    </tr>
+
+    <tr>
+      <th> <br>
+        <p class="top"> Stainless Steel Knife </p> <b class="size"> <sup class="small">₹</sup>199 </b> &nbsp; <s
+          class="gray">₹499</s> &nbsp;<b class="green">
+          60% off </b>
+      </th>
+
+      <th> <br>
+        <p class="top">Chef Knife 6</p> <b class="size"> ₹349 </b> <s class="gray">₹599</s> <b class="green"> 41%
+          off</b>
+      </th>
+
+      <th> <br>
+        <p class="top"> Carving Knife </p> <b class="size"> ₹3,325 </b> <s class="gray">₹3,500</s> <b class="green">
+          05%
+          off </b>
+      </th>
+
+      <th> <br>
+        <p class="top"> Grand Maitre Knife </p> <b class="size"> ₹10,431 </b> <s class="gray">₹10,980 </s> <b
+          class="green"> 05% off </b>
+      </th>
+
+      <th> <br>
+        <p class="top"> SILVER SHARK </p> <b class="size"> ₹599 </b> <s class="gray">₹999</s> <b class="green"> 40%
+          off</b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="500px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px">
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span> &nbsp;
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>&nbsp;
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span> &nbsp;
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span> &nbsp;
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p style="text-align: center;">FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="knife1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="knife2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="knife3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="knife4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="knife5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+    <!-- </div> -->
+  </table> <br>
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> CUTTING BOARD <br> <br> <br>
+        </small>
+
+        <a href="cutting board.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;"></a>
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="cutter1.html"> <img src="cb1.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="cutter2.html"> <img src="cb2.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="cutter3.html"> <img src="cb3.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="cutter4.html"> <img src="cb4.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="cutter5.html"> <img src="cb5.jpeg" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> Natural Bamboo Chopping Board </p> <b class="size"> ₹383 </b> <s class="gray">₹799</s> <b
+          class="green"> 52% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Multifunctional Foldable Cutting </p> <b class="size"> ₹215 </b> <s class="gray">₹999</s> <b
+          class="green"> 78% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Plastic Chopping Board </p> <b class="size"> ₹209 </b> <s class="gray">₹599</s> <b
+          class="green"> 65% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Plastic Cutting Board </p> <b class="size"> ₹249 </b> <s class="gray">₹499</s> <b class="green">
+          50% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Cutting Board Plastic </p> <b class="size"> ₹849 </b> <s class="gray">₹999</s> <b class="green">
+          08% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+    </tr>
+
+
+    <tr>
+      <th> <a href="cutter1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="cutter2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="cutter3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="cutter4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="cutter5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> BASKETS <br> <br> <br>
+        </small>
+
+        <a href="basket.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+
+    <tr>
+      <th class="h"><a href="basket1.html"> <img src="bs1.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="basket2.html"> <img src="bs2.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="basket3.html"> <img src="bs3.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="basket4.html"> <img src="bs4.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="basket5.html"> <img src="bs5.jpg" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> Natural Bamboo Chopping Board </p> <b class="size"> ₹273 </b> <s class="gray">₹800</s> <b
+          class="green"> 65% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> MULTIPURPOSE FOLDING BASKET </p> <b class="size"> ₹299 </b> <s class="gray">₹999</s> <b
+          class="green"> 70% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Basket Expandable Fridge Storage Rack </p> <b class="size"> ₹229 </b> <s class="gray">₹999</s>
+        <b class="green">77% off </b>
+      </th>
+
+      <th><br>
+        <p class="top">Picnic Basket Storage Basket </p> <b class="size"> ₹749 </b> <s class="gray">₹779</s> <b
+          class="green">
+          06% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Fruit Storage Basket </p> <b class="size"> ₹129 </b> <s class="gray">₹499</s> <b class="green">
+          74% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+    </tr>
+
+
+    <tr>
+      <th> <a href="basket1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="basket2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="basket3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="basket4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="basket5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+  <table>
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> COLANDERS <br> <br> <br>
+        </small>
+
+        <a href="colander.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="colander1.html"> <img src="co1.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="colander2.html"> <img src="co2.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="colander3.html"> <img src="co3.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="colander4.html"> <img src="co4.webp" width="200px" height="200px"></th>
+      <th class="h"><a href="colander5.html"> <img src="co5.jpg" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top">
+          POGON Stainless Steel Colander </p> <b class="size"> ₹499 </b> <s class="gray">₹550</s> <b class="green"> 18%
+          off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> RITURAJ Colander basket </p> <b class="size"> ₹440 </b> <s class="gray">₹450</s> <b
+          class="green"> 02% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Everyday shop Wash the rice </p> <b class="size"> ₹105 </b> <s class="gray">₹699</s>
+        <b class="green">84% off </b>
+      </th>
+
+      <th><br>
+        <p class="top">NKZ Chef Foldable Steam Basket </p> <b class="size"> ₹285 </b> <s class="gray">₹599</s> <b
+          class="green">
+          52% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Fruit Storage Basket </p> <b class="size"> ₹199 </b> <s class="gray">₹499</s> <b class="green">
+          60% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+    </tr>
+
+
+    <tr>
+      <th> <a href="colander1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="colander2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="colander3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="colander4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="colander5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> POTATO MASHER <br> <br> <br>
+        </small>
+
+        <a href="potatomasher.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="potatomasher1.html"><img src="pt1.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="potatomasher2.html"><img src="pt2.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="potatomasher3.html"><img src="pt3.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="potatomasher4.html"><img src="pt4.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="potatomasher5.html"><img src="pt5.jpg" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> Three Different Types of Potato </p> <b class="size"> ₹299 </b> <s class="gray"> ₹1,299</s> <b
+          class="green">
+          67% off </b>
+      </th>
+
+      <th> <br>
+        <p class="top">Pavbhaji Or potato Masher Steel Masher </p> <b class="size"> ₹92 </b> <s class="gray">₹199</s> <b
+          class="green"> 53% off </b>
+      </th>
+
+      <th> <br>
+        <p class="top">Imam Dasta/Okhli and Wooden Handle Steel </p> <b class="size"> ₹254 </b> <s class="gray">₹799</s>
+        <b class="green"> 68% off </b>
+      </th>
+
+      <th><br>
+
+        <p class="top"> IKEA Plastic Masher </p> <b class="size"> ₹899 </b> <s class="gray">₹1,039</s> <b class="green">
+          13% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> CELONA queen potato masher </p> <b class="size"> ₹395 </b> <s class="gray">₹399</s>
+        <b class="green"> 01% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="potatomasher1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="potatomasher2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="potatomasher3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="potatomasher4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="potatomasher5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> MEASURING CUPS <br> <br> <br>
+        </small>
+
+        <a href="measuring cup.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="mcup1.html"><img src="mc1.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="mcup2.html"><img src="mc2.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="mcup3.html"><img src="mc3.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="mcup4.html"><img src="mc4.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="mcup5.html"><img src="mc5.jfif" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> Savgyan SGMC-CS08 </p> <b class="size"> ₹138 </b> <s class="gray"> ₹350</s> <b class="green">
+          60% off </b>
+      </th>
+
+      <th> <br>
+        <p class="top"> Krypton Q-8-MEASURE-CUPS </p> <b class="size"> ₹109 </b> <s class="gray">₹499</s> <b
+          class="green"> 78% off </b>
+      </th>
+
+      <th> <br>
+        <p class="top"> PLANETONE Measuring Cups </p> <b class="size"> ₹225 </b> <s class="gray">₹599</s> <b
+          class="green"> 78% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> METINOX Measuring Cups </p> <b class="size"> ₹295 </b> <s class="gray">₹499</s> <b
+          class="green"> 40% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> YOGI DARSHAN Perfect Measuring Cups </p> <b class="size"> ₹149 </b> <s class="gray">₹499</s>
+        <b class="green"> 70% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="mcup1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="mcup2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="mcup3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="mcup4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="mcup5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> POLY SETS <br> <br> <br>
+        </small>
+
+        <a href="polysets.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="poly1.html"> <img src="po1.webp" width="200px" height="200px"></th>
+      <th class="h"><a href="poly2.html"> <img src="po2.webp" width="200px" height="200px"></th>
+      <th class="h"><a href="poly3.html"> <img src="po3.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="poly4.html"> <img src="po4.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="poly5.html"> <img src="po5.jpg" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> Plastic Utility Container </p> <b class="size"> ₹399 </b> <s class="gray">₹796</s> <b
+          class="green"> 49% off </b> </b>
+      </th>
+
+      <th><br>
+        <p class="top"> MASTERCOOK Polypropylene Grocery Container </p> <b class="size"> ₹429 </b> <s
+          class="gray">₹899</s> <b class="green"> 52% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Plastic Grocery Containers </p> <b class="size"> ₹658 </b> <s class="gray">₹658</s> <b
+          class="green"> 34% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Polyset Opal </p> <b class="size"> ₹229 </b> <s class="gray">₹249</s> <b class="green"> 08%
+          off
+        </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Frabjous Dots & Transparent Storage Jars Container </p> <b class="size"> ₹599 </b> <s
+          class="gray">₹930</s> <b class="green"> 30% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+
+    <tr>
+      <th> <a href="poly1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="poly2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="poly3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="poly4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="poly5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr>
+    </tr> <br>
+  </table> <br>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> CONTAINERS <br> <br> <br>
+        </small>
+
+        <a href="containers.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+
+    <tr>
+      <th class="h"><a href="container1.html"> <img src="ct1.webp" width="200px" height="200px"></th>
+      <th class="h"><a href="container2.html"> <img src="ct2.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="container3.html"> <img src="ct3.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="container4.html"> <img src="ct4.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="container5.html"> <img src="ct5.jpg" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> Global Voice Premium Air Tight </p> <b class="size"> ₹859 </b> <s class="gray">₹1,799</s> <b
+          class="green"> 52% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> HUMBLE KART Storage 4 Section Container </p> <b class="size"> ₹220 </b> <s class="gray">₹699</s>
+        <b class="green"> 68% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> MASTERCOOK Malta Plastic Grocery Container </p> <b class="size"> ₹129 </b> <s class="gray">
+          ₹130
+        </s> <b class="green"> 01% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Liolis Satinless Steel dibba </p> <b class="size"> ₹590 </b> <s class="gray">₹1,250</s> <b
+          class="green"> 52% off </b>
+      </th>
+
+      <th> <br>
+        <p class="top"> TREO Glass Grocery Container </p> <b class="size"> ₹159 </b> <s class="gray">₹195</s> <b
+          class="green"> 18% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span> ;
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="container1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="container2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="container3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="container4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="container5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> STANDS <br> <br> <br>
+        </small>
+
+        <a href="stand.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="stand1.html"> <img src="sd1.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="stand2.html"> <img src="sd2.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="stand3.html"> <img src="sd3.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="stand4.html"> <img src="sd4.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="stand5.html"> <img src="sd5.jpeg" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> Steel Kitchen Trolley </p> <b class="size"> ₹1,299 </b> <s class="gray">₹2,699</s> <b
+          class="green"> 51% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Washing Basket With Tray And Spoon Holder </p> <b class="size"> ₹291 </b> <s
+          class="gray">₹999</s> <b class="green"> 70% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> HUMBLE KART Kitchen </p> <b class="size"> ₹619 </b> <s class="gray">₹1,599</s> <b class="green">
+          61% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> JHUMBLE KART kitchen </p> <b class="size"> ₹407 </b> <s class="gray">₹1,252</s> <b
+          class="green"> 67% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Drawers Cutlery Kitchen Rack </p> <b class="size"> ₹1,069 </b> <s class="gray">₹2,625</s> <b
+          class="green"> 59% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star  s" width="200px"> </span>
+      </th>
+    </div>
+
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+
+    <tr>
+      <th> <a href="stand1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="stand2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="stand3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="stand4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="stand5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+
+  <table style="width :100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> CUPS <br> <br> <br>
+        </small>
+
+        <a href="cup.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="cup1.html"> <img src="c1.jpg" width="200px" height="200px"> </th>
+      <th class="h"><a href="cup2.html"> <img src="c2.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="cup3.html"> <img src="c3.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="cup4.html"> <img src="c4.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="cup5.html"> <img src="c5.jpg" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> Plastic Stainless Steel Cups </p> <b class="size"> ₹315 </b> <s class="gray">₹325</s> <b
+          class="green"> 03% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Crystal Clear Bubble Glass Tea & Coffey Cup </p> <b class="size"> ₹690 </b> <s
+          class="gray">₹1229</s> <b class="green"> 46% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> China Golden Heritage Print </p> <b class="size"> ₹980 </b> <s class="gray">₹2,250</s> <b
+          class="green"> 20% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Ceramic White Dot Tea Cup Set/ Coffee Mug </p> <b class="size"> ₹325 </b> <s
+          class="gray">₹799</s> <b class="green"> 59% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Borosil Opalware Present AGERIA </p> <b class="size"> ₹565 </b> <s class="gray">₹575</s> <b
+          class="green"> 01% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="CUP1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="cup2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th><a href="cup3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="cup4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="cup5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table>
+  <br>
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> GLASS <br> <br> <br>
+        </small>
+
+        <a href="glass.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="glass1.html"> <img src="g1.jpg" width="200px" height="200px"> </th>
+      <th class="h"><a href="glass2.html"> <img src="g2.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="glass3.html"> <img src="g3.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="glass4.html"> <img src="g4.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="glass5.html"> <img src="g5.jpg" width="200px" height="200px"></th>
+    </tr>
+
+    <tr>
+      <th> <br>
+        <p class="top"> Crystal Clear Pineapple Shaped Glass </p> <b class="size"> ₹346 </b> <s class="gray">₹1,099</s>
+        <b class="green"> 68% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> RELOZA whisky glass 5 </p> <b class="size"> ₹504 </b> <s class="gray">₹1,077</s> <b
+          class="green"> 53% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Premium Quality Unbreakable Classic Golden </p> <b class="size"> ₹299 </b> <s
+          class="gray">₹599</s> <b class="green"> 50% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Cocktail, Champagne Drinking Clear Glass </p> <b class="size"> ₹349 </b> <s
+          class="gray">₹599</s> <b class="green"> 41% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Glass Set Meenakari, Water Glass, Juice Glass Glass Set </p> <b class="size"> ₹499 </b> <s
+          class="gray">₹699</s> <b class="green"> 28% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+
+    <tr>
+      <th> <a href="glass1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="glass2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="glass3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="glass4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="glass5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> SPOONS <br> <br> <br>
+        </small>
+
+        <a href="spoon.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="spoon1.html"> <img src="s1.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="spoon2.html"> <img src="s2.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="spoon3.html"> <img src="s3.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="spoon4.html"> <img src="s4.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="spoon5.html"> <img src="s5.jpeg" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> Wooden Serving Spoon Set </p> <b class="size"> ₹139 </b> <s class="gray">₹425</s> <b
+          class="green"> 67% off </b>
+      </th>
+
+      <th> <br>
+        <p class="top"> Non-Stick Serving and Cooking Spoon </p> <b class="size"> ₹299 </b> <s class="gray">₹433</s>
+        <b class="green"> 47% off </b>
+      </th>
+
+      <th> <br>
+        <p class="top"> Manvyu ce Cream Scoop </p> <b class="size"> ₹168 </b> <s class="gray">₹568</s> <b class="green">
+          42% off </b>
+      </th>
+
+      <th> <br>
+        <p class="top"> Zume ANTLILEAK </p> <b class="size"> ₹143 </b> <s class="gray">₹299</s> <b class="green"> 52%
+          off </b>
+      </th>
+
+      <th> <br>
+        <p class="top"> Unicus Dinner Special Stainless Steel Table Spoon </p> <b class="size"> ₹188 </b> <s
+          class="gray">₹399</s> <b class="green"> 52% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="spoon1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="spoon2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="spoon3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="spoon4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="spoon5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr>
+    <br>
+  </table> <br>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> BOWLS <br> <br> <br>
+        </small>
+
+        <a href="bowl.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="bowl1.html"> <img src="b1.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="bowl2.html"> <img src="b2.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="bowl3.html"> <img src="b3.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="bowl4.html"> <img src="b4.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="bowl5.html"> <img src="b5.jpg" width="200px" height="200px"></th>
+    </tr>
+
+    <tr>
+      <th><br>
+        <p class="top"> Pineapple Shaped crystal glass bowl set </p> <b class="size"> ₹575 </b> <s
+          class="gray">₹1,661</s> <b class="green"> 60% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> RBGIIT Stainless Steel Copper </p> <b class="size"> ₹575 </b> <s class="gray">₹999</s> <b
+          class="green"> 20% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Zume ANTLILEAK 750 ML BOWL </p> <b class="size"> ₹299 </b> <s class="gray">₹349</s> <b
+          class="green"> 14% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Femora Borosilicate Glass Mixing Bowl </p> <b class="size"> ₹1,032 </b> <s
+          class="gray">₹1,720</s> <b class="green"> 40% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> JCBB Stainless Steel Copper Bottom </p> <b class="size"> ₹580 </b> <s class="gray">₹1,557 </s>
+        <b class="green"> 60% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th>
+        <a href="bowl1.html"> <input type="button" value="SHOW DETAILS" class="sd"></a>
+      </th>
+
+      <th> <a href="bowl2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+
+      <th> <a href="bowl3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+
+      <th> <a href="bowl4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+
+      <th> <a href="bowl5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> UTENSILS <br> <br> <br>
+        </small>
+
+        <a href="utensil.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+
+    <tr>
+      <th class="h"><a href="utensil1.html"> <img src="u1.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="utensil2.html"> <img src="u2.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="utensil3.html"> <img src="u3.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="utensil4.html"> <img src="u4.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="utensil5.html"> <img src="u6.jpg" width="200px" height="200px"></th>
+    </tr>
+
+    <tr>
+      <th> <br>
+        <p class="top"> Zobby 4 Shelf Dish Rack U Design </p> <b class="size"> ₹1,400 </b> <s class="gray">₹3,199</s>
+        <b class="green"> 56% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Utensil Kitchen Rack </p> <b class="size"> ₹1,189 </b> <s class="gray">₹2,699</s> <b
+          class="green"> 68% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Patelraj Utensil Kitchen(STEEL) </p> <b class="size"> 1,189 </b> <s class="gray">₹4,999</s> <b
+          class="green"> 66% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Utensils Rack Plate Kitchen Rack </p> <b class="size"> ₹859 </b> <s class="gray">₹1,999</s> <b
+          class="green"> 57% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Akaya Creations 5 Shelf Dish Rack </p> <b class="size"> ₹1,899 </b> <s class="gray">₹3,799
+        </s>
+        <b class="green"> 50% off </b>
+      </th>
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="utensil1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="utensil2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="utensil3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="utensil4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="utensil5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> DINNER SETS <br> <br> <br>
+        </small>
+
+        <a href="dinr.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="dinr1.html"> <img src="dn1.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="dinr2.html"> <img src="dn2.png" width="200px" height="200px"></th>
+      <th class="h"><a href="dinr3.html"> <img src="dn3.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="dinr4.html"> <img src="dn4.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="dinr5.html"> <img src="dn5.jfif" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> MILTON Pack of 31 Dinner Set</p> <b class="size"> ₹4,008 </b> <s class="gray">₹4,175 </s> <b
+          class="green"> 14% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Melamine dinner set </p> <b class="size"> ₹4,065 </b> <s class="gray">₹4,699
+        </s> <b class="green"> 13% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> St Stehlen Pack of 24 Melamin Vintage Collection </p> <b class="size"> ₹2,039 </b> <s
+          class="gray">₹2,899</s> <b class="green">
+          29% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Opalware Laopala Diva Clas Dinner Set </p> <b class="size"> ₹3,000 </b> <s
+          class="gray">₹3,595</s> <b class="green"> 16% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> English Lavender Dinner Set </p> <b class="size"> ₹2,089 </b> <s class="gray">₹2,295</s> <b
+          class="green"> 08% off </b>
+      </th>
+    </tr>
+
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="dinr1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="dinr2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="dinr3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="dinr4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="dinr5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> PLATES <br> <br> <br>
+        </small>
+
+        <a href="plate.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+
+    <tr>
+      <th class="h"><a href="plate1.html"> <img src="p1.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="plate2.html"> <img src="p2.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="plate3.html"> <img src="p9.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="plate4.html"> <img src="p8.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="plate5.html"> <img src="p7.jpg" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th><br>
+        <p class="top"> Wondercrafts Stainless steel </p> <b class="size"> ₹735 </b> <s class="gray">₹1,999</s> <b
+          class="green"> 63% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> K521 Quarter Plate </p> <b class="size"> ₹157 </b> <s class="gray">₹299</s> <b class="green">
+          47% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Halwa/Dessert Plate Set Quarter Plate </p> <b class="size"> ₹846</b> <s class="gray">₹1,499</s>
+        <b class="green"> 43% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Yana Floral Design Print </p> <b class="size"> ₹767 </b> <s class="gray">₹1,639</s> <b
+          class="green"> 56% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Golden Fish Rose Printed Melamine </p> <b class="size"> ₹548 </b> <s class="gray">₹999</s> <b
+          class="green"> 45% off </b>
+      </th>
+
+    </tr>
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s s" width="200px"> </span>
+      </th>
+    </div>
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="plate1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="plate2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="plate3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="plate4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="plate5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> GAS STOVE <br> <br> <br>
+        </small>
+
+        <a href="stove.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+
+    <tr>
+      <th class="h"><a href="stove1.html"> <img src="stv1.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="stove2.html"> <img src="stv1.png" width="200px" height="200px"></th>
+      <th class="h"><a href="stove3.html"> <img src="st1.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="stove4.html"> <img src="st4.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="stove5.html"> <img src="st5.jfif" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th><br>
+        <p class="top"> Manual Gas Stove (1 Burners) </p> <b class="size"> ₹937 </b> <s class="gray">₹1,895</s> <b
+          class="green"> 31% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Ignition Heavy Brass 2 Burner Stove </p> <b class="size"> ₹1,328 </b> <s class="gray">₹4,150</s>
+        <b class="green"> 68% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Steel Automatic Gas Stove (3 Burners) </p> <b class="size"> ₹2,190 </b> <s
+          class="gray">₹5,490</s> <b class="green"> 60% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Butterfly Rapid 4 Burner Glass Manual Gas Stove </p> <b class="size"> ₹5,495 </b> <s
+          class="gray">₹7,995</s> <b class="green"> 31% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Cast Iron Automatic Gas Stove (4 Burners) </p> <b class="size"> ₹11,750 </b> <s
+          class="gray">₹21,990</s> <b class="green"> 46% off </b>
+      </th>
+
+    </tr>
+
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+
+    <tr>
+      <th> <a href="stove1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="stove2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="stove3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="stove4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="stove5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> ELECTRNICS APPLIENCES <br> <br> <br>
+        </small>
+
+        <a href="electronic.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+
+    <tr>
+      <th class="h"><a href="ea1.html"> <img src="ea1.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="ea2.html"> <img src="ea2.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="ea3.html"> <img src="eea3.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="ea4.html"> <img src="ea4.jpg" width="200px" height="200px"></th>
+      <th class="h"><a href="ea5.html"> <img src="ea5.jpg" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> Multi-function Multi Cooker Electric Kettl </p> <b class="size"> ₹899 </b> <s
+          class="gray">₹3,999 </s> <b class="green"> 77% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Induction Cooktop (Red, Push Button) </p> <b class="size"> ₹1,649 </b> <s class="gray">₹2,895
+        </s> <b class="green"> 43% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Zume ANTLILEAK </p> <b class="size"> ₹2,151 </b> <s class="gray">₹3,310</s> <b class="green">
+          35% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Igeon 25-Litre 14347 </p> <b class="size"> ₹4,490 </b> <s class="gray">₹5,795</s> <b
+          class="green"> 22% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Oven Toaster Grill (OTG) </p> <b class="size"> ₹2,690 </b> <s class="gray">₹3,890</s> <b
+          class="green"> 30% off </b>
+      </th>
+    </tr>
+
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="ea1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="ea2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="ea3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="ea4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="ea5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> TRASH BAGS <br> <br> <br>
+        </small>
+
+        <a href="trashbag.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="trashbag1.html"> <img src="tb1.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="trashbag2.html"> <img src="tb2.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="trashbag3.html"> <img src="tb3.jfif" width="200px" height="200px"></th>
+      <th class="h"><a href="trashbag4.html"> <img src="tb4.png" width="200px" height="200px"></th>
+      <th class="h"><a href="trashbag5.html"> <img src="tb5.jfif" width="200px" height="200px"></th>
+    </tr>
+
+
+    <tr>
+      <th> <br>
+        <p class="top"> Shrinay garbage disposal bags </p> <b class="size"> ₹319 </b> <s class="gray">₹999 </s> <b
+          class="green"> 68% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Urban Red Garbage Bag Pack Of 5 Roll </p> <b class="size"> ₹182 </b> <s class="gray">₹599
+        </s> <b class="green"> 69% off </b>
+      </th>
+
+      <th><br>
+        <p class="top">Medium 13 L Garbage Bag </p> <b class="size"> ₹165 </b> <s class="gray">₹399</s> <b
+          class="green">
+          58% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Rumaxo WASTAGE BAGS 51 MICRON </p> <b class="size"> ₹159 </b> <s class="gray">₹299</s> <b
+          class="green"> 46% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> multicolored Garbage bag Medium 5 L </p> <b class="size"> ₹399 </b> <s class="gray">₹999</s> <b
+          class="green"> 60% off </b>
+      </th>
+    </tr>
+
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="trashbag1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="trashbag2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="trashbag3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="trashbag4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="trashbag5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+
+  </table>
+
+
+  <table style="width: 100%;">
+    <tr>
+      <td colspan="5">
+        <small style="float: left; font-size: larger; font: 1.5em sans-serif;"> DUSTBIN <br> <br> <br>
+        </small>
+
+        <a href="dust.html">
+          <input type="button" value="View All"
+            style="background-color: rgb(71, 71, 221); color: honeydew; width: 100px; float: right;">
+      </td>
+    </tr>
+
+    <tr>
+      <th class="h"><a href="dust1.html"> <img src="d1.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="dust2.html"> <img src="d2.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="dust3.html"> <img src="d3.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="dust4.html"> <img src="d4.jpeg" width="200px" height="200px"></th>
+      <th class="h"><a href="dust5.html"> <img src="d5.jpeg" width="200px" height="200px"></th>
+    </tr>
+
+    <tr>
+      <th> <br>
+        <p class="top"> Mofna Stainless Steel Swing Dust Bin </p> <b class="size"> ₹599 </b> <s class="gray">₹1,299 </s>
+        <b class="green"> 53% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Black Plastic Dustbin </p> <b class="size"> ₹589 </b> <s class="gray">₹1,099
+        </s> <b class="green"> 46% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Floral Print Small Size Dustbin (Blue) </p> <b class="size"> ₹209 </b> <s class="gray">₹398</s>
+        <b class="green">
+          47% off </b>
+      </th>
+
+      <th><br>
+        <p class="top"> Plastic Dustbin (Green, Beige, Pack of 2) </p> <b class="size"> ₹1,779 </b> <s
+          class="gray">₹2,499</s> <b class="green"> 28% off </b>
+      </th>
+
+      <th><br>
+        <p class="top">Mangwale Dustbin (Silver) </p> <b class="size"> ₹299 </b> <s class="gray">₹550</s> <b
+          class="green"> 45% off </b>
+      </th>
+    </tr>
+
+
+    <div>
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+
+      <th>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star checked" width="200px"> </span>
+        <span class="fa fa-star s" width="200px"> </span>
+      </th>
+    </div>
+
+
+    <tr>
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+
+      <th>
+        <div class="gray1">
+          <p>FREE Delivery by KIT-MART</p>
+        </div>
+      </th>
+    </tr>
+
+    <tr>
+      <th> <a href="dust1.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="dust2.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="dust3.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="dust4.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+      <th> <a href="dust5.html"> <input type="button" value="SHOW DETAILS" class="sd"></th>
+    </tr> <br>
+  </table> <br>
+  <!-- ending code of products  -->
+  <br><br>
+
+  <!-- starting code of footer  -->
+  <div class="footer">
+
+    <div class="footerb">
+      <b> Quick Links</b> <br> <br>
+      Home <br>
+      About <br>
+      Contect <br>
+      Items <br>
+    </div>
+
+    <div class="footerb">
+      <b>Menu</b> <br> <br>
+      Electronics <br>
+      Pots <br>
+      Utensils<br>
+    </div>
+
+    <div class="footerb">
+      <b>Address</b> <br> <br>
+      A/405, <br>
+      Bano Building, <br>
+      Jeevan Baug, <br>
+      Mumbra, Thane(400 612) <br>
+      <b>Timing :</b> 9:00AM to 6:00PM <br> <br>&nbsp;
+    </div>
+
+    <div class="footerb">
+      <b>Follow Us</b> <br> <br>
+      Facebook <br>
+      Twitter <br>
+      Instagram <br>
+      YouTube
+    </div>
+
+    <div class="footerb">
+      <b> Map </b> <br>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.117192668335!2d73.02062431412558!3d19.19008305336516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf1e081e3a27%3A0xdd58a45c771a28b!2sMumbra%20Railway%20Station!5e0!3m2!1sen!2sin!4v1614790524800!5m2!1sen!2sin"
+        width="200" height="160" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div class="footerb">
+      <b>Quick Search</b> <br><br>
+      <input type="text" placeholder="Search"> <br> <br>
+      <input type="button" value="Search">
+    </div>
+  </div>
+
+  <!-- <div class="wrapper">
+    <div class="icon facebook">
+      <div class="tooltip">
+        Facebook</div>
+      <span><i class="fab fa-facebook-f"></i></span>
+    </div>
+    <div class="icon twitter">
+      <div class="tooltip">
+        Twitter</div>
+      <span><i class="fab fa-twitter"></i></span>
+    </div>
+    <div class="icon instagram">
+      <div class="tooltip">
+        Instagram</div>
+      <span><i class="fab fa-instagram"></i></span>
+    </div>
+    <div class="icon github">
+      <div class="tooltip">
+        Github</div>
+      <span><i class="fab fa-github"></i></span>
+    </div>
+    <div class="icon youtube">
+      <div class="tooltip">
+        YouTube</div>
+      <span><i class="fab fa-youtube"></i></span>
+    </div>
+  </div> -->
+  <!-- ending code of footer  -->
+
+
+  <script src="searchbox.js"></script>
+  <script src="time.js"></script>
+  <script src="slider.js"></script>
+
+</body>
+
+</html>
