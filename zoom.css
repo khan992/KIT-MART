@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.img-zoom-container {
+    position: relative;
+}
+
+.img-zoom-lens {
+    position: absolute;
+    border: 1px solid #0a0000;
+    /*set the size of the lens:*/
+    width: 100px;
+    height: 100px;
+}
+
+.img-zoom-result {
+    border: 1px solid #ffffff;
+    /*set the size of the result div:*/
+    width: 400px;
+    height: 400px;
+}

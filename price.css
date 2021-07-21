@@ -1,0 +1,52 @@
+/* *{
+    box-sizing: border-box;
+    max-width: 100%;
+} */
+
+.top{
+    color: rgb(0, 0, 0);
+    font: 1.3em sans-serif;
+    font-weight:small;
+    width: 100%;  
+    /* size: 17px; */
+    overflow: hidden;
+     display:inline-block;
+     margin: 1px;
+}
+
+.top:hover{
+    color: rgb(97, 95, 218);
+    /* font-size: 20px; */
+     /* font : 20px;   */
+    /* display: inline-flex; */
+    cursor: grabbing;
+}
+
+.size{
+    font: 1.7em sans-serif;
+    color: rgb(124, 40, 9);
+} 
+
+.gray {
+    color: rgb(66, 53, 53);
+    font-size: 18px ;
+    font-weight: normal;
+}
+
+.green {
+     color: rgb(5, 75, 5);  
+     font-size: 15px; 
+     font-weight: normal;
+}
+
+.small{
+    font-size: 14px;
+}
+
+.gray1{
+    text-align: left;
+    font-size: 15px ;
+    color: rgb(80, 71, 71);
+    margin: -10px;
+    padding: 10px;
+}

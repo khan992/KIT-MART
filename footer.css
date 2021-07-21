@@ -1,0 +1,19 @@
+.footer{
+    height: 230px;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(2, 2, 34);
+}
+
+.footerb{
+    height: 180px;
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+    size: 1.5em;
+cursor: grab;
+}
